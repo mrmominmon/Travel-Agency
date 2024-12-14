@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero-section">
+        <nav class="navbar">
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#trip">Trip Planner</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#find">Contact Us</a></li>
+                <button class="login-btn">Log In</button>
+            </ul>
+
+        </nav>
+        <div class="hero-content" id="home">
+            <h1>Experience Your <span>Best Tour With Us</span></h1>
+            <p>We Have More Than 1 Million Happy Customers Around The World!</p>
+            <form class="search-form">
+                <div class="form-group">
+                    <label for="from">From</label>
+                    <select id="from" name="from">
+                        <option>Dhaka, Bangladesh</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="to">To</label>
+                    <select id="to" name="to">
+                        <option>Singapore</option>
+                        <option>Dubai</option>
+                        <option>Japan</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div class="form-group">
+                    <label for="adult">Adult</label>
+                    <select id="adult" name="adult">
+                        <option>01</option>
+                        <option>02</option>
+                        <option>03</option>
+                        <option>04</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="child">Child</label>
+                    <select id="child" name="child">
+                        <option>00</option>
+                        <option>01</option>
+                    </select>
+                </div>
+                <button type="submit" class="find-btn">Find Here</button>
+            </form>
+        </div>
+    </header>
+
+
+    <section class="trip-packages" id="trip">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Trip Packages</h2>
+                <p>Here you will find all our luxurious tour packages in a reasonable range of cost.</p>
+                <a href="#" class="view-all">View All →</a>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <img src="/img/dubai.jpg" alt="Dubai">
+                    <div class="card-content">
+                        <h3>Dubai</h3>
+                        <p>3 Nights, 2 Days</p>
+                        <div class="price">$450</div>
+                        <div class="rating">★★★★★</div>
+                        <a href="#" class="btn">Find Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/Singapore.jpg" alt="Singapore">
+                    <div class="card-content">
+                        <h3>Singapore</h3>
+                        <p>4 Nights, 3 Days</p>
+                        <div class="price">$650</div>
+                        <div class="rating">★★★★★</div>
+                        <a href="#" class="btn">Find Details</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="/img/Thailand.jpg" alt="Thailand">
+                    <div class="card-content">
+                        <h3>Thailand</h3>
+                        <p>4 Nights, 3 Days</p>
+                        <div class="price">$250</div>
+                        <div class="rating">★★★★★</div>
+                        <a href="#" class="btn">Find Details</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="blogs-section" id="blogs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Blogs</h2>
+                <p>Sometimes, we need to explore this beautiful world going out beyond.</p>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="blogs">
+                <div class="blog-card">
+                    <img src="/img/Morning at Mountain.jpg" alt="Morning at Mountain">
+                    <div class="blog-content">
+                        <h3>Morning at Mountain</h3>
+                        <p>by <a href="#">Demi Lovato</a></p>
+                        <p>If you find yourself up early in the Rockies, you won’t be alone. You’ll come across locals
+                            who are as bright-eyed. <a href="#">Read More</a></p>
+                        <div class="blog-stats">
+                            <span>19K ❤</span>
+                            <span>250 💬</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="/img/Ocean Calling.jpg" alt="Ocean Calling">
+                    <div class="blog-content">
+                        <h3>Ocean Calling</h3>
+                        <p>by <a href="#">Marina</a></p>
+                        <p>On Kauai, a string of small fishing villages on the Na Pali Coast were founded. These remote
+                            communities. <a href="#">Read More</a></p>
+                        <div class="blog-stats">
+                            <span>35K ❤</span>
+                            <span>254 💬</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <img src="/img/Dubai & Sand.jpg" alt="Dubai & Sand">
+                    <div class="blog-content">
+                        <h3>Dubai & Sand</h3>
+                        <p>by <a href="#">Julie Bergan</a></p>
+                        <p>Dubai: Sand fills the desert and in a country such as the UAE it is available in abundance.
+                            Yet, not many people. <a href="#">Read More</a></p>
+                        <div class="blog-stats">
+                            <span>15K ❤</span>
+                            <span>212 💬</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="instagram-section" id="find">
+        <div class="header">
+            <h1>Find Us on Instagram</h1>
+            <p>Find here all our happy customers shared their golden memories with us.</p>
+            <a href="#" class="follow-button">Follow Us</a>
+        </div>
+        <div class="photo-grid">
+            <img src="/img/Person on a dock.jpg" alt="Person on a dock">
+            <img src="/img/Couple on the beach.jpg" alt="Couple on the beach">
+            <img src="/img/Person jumping on the beach.jpg" alt="Person jumping on the beach">
+            <img src="/img/Person on a rock.jpg" alt="Person on a rock">
+            <img src="/img/man-kissing-face-his-girl-bridge_1157-1343.jpg" alt="Couple on a bridge">
+            <img src="/img/Person on a dock2.jpg" alt="Person on a dock">
+            <img src="/img/Couple in a nest.jpg" alt="Couple in a nest">
+            <img src="/img/Person surfing.avif" alt="Person surfing">
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="footer-section">
+            <div class="logo-description">
+                <h2>TourD</h2>
+                <p>We can arrange a package to fit your special needs always.</p>
+            </div>
+            <div class="top-places">
+                <h3>Top Places</h3>
+                <ul>
+                    <li>Dubai</li>
+                    <li>Singapore</li>
+                    <li>Thailand</li>
+                    <li>Maldives</li>
+                </ul>
+            </div>
+            <div class="company">
+                <h3>Company</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>Trip Planner</li>
+                    <li>Blogs</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+            <div class="follow-us">
+                <h3>Follow Us</h3>
+                <div class="social-icons"> <a href="#"><img src="/img/facebook.png" alt="Facebook"></a> <a href="#"><img
+                            src="/img/twitter.png" alt="Twitter"></a> <a href="#"><img src="/img/instagram.png"
+                            alt="Instagram"></a> </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>All Rights Reserved © Mehjabeen </p>
+        </div>
+    </footer>
+</body>
+
+</html>
